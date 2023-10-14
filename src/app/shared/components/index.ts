@@ -1,6 +1,7 @@
 export * from "./AboutCard";
 export * from "./AboutSection";
 export * from "./ContentContainer";
+export * from "./FooterSection";
 export * from "./GiantParagraph";
 export * from "./Header";
 export * from "./HomeSection";
