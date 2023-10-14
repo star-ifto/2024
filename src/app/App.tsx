@@ -3,6 +3,7 @@ import {
   AboutSection,
   InscriptionSection,
   TimelineSection,
+  SponsorsSection,
 } from "./shared/components";
 import { Configs } from "./shared/configs";
 import { GlobalStyle } from "./shared/global/styles";
@@ -19,6 +20,8 @@ export function App() {
         <InscriptionSection id={Configs.Navigation.Inscription} />
 
         <TimelineSection id={Configs.Navigation.Timeline} />
+
+        <SponsorsSection id={Configs.Navigation.Sponsors} />
       </main>
     </>
   );

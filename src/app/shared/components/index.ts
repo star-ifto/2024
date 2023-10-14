@@ -5,6 +5,7 @@ export * from "./GiantParagraph";
 export * from "./Header";
 export * from "./HomeSection";
 export * from "./InscriptionSection";
+export * from "./SponsorsSection";
 export * from "./Timeline";
 export * from "./TimelineContainer";
 export * from "./TimelineDate";

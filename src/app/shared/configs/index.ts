@@ -1,8 +1,8 @@
 const Navigation = {
-  About: "about",
-  Inscription: "inscription",
-  Timeline: "timeline",
-  Sponsors: "sponsors",
+  About: "sobre",
+  Inscription: "inscrição",
+  Timeline: "cronograma",
+  Sponsors: "patrocinadores",
 };
 
 export const Configs = { Navigation };
