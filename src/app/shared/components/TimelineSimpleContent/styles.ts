@@ -18,4 +18,9 @@ export const StyledContainer = styled.div`
     text-align: justify;
     line-height: 150%;
   }
+
+  @media screen and (max-width: 565px) {
+    padding-top: 0.5em;
+    gap: 1.5em;
+  }
 `;

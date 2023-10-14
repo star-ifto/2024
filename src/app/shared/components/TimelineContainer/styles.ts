@@ -30,6 +30,10 @@ export const StyledContainer = styled.div<IStyledContainerProps>`
     right: ${DISTANCIA_DO_INDICADOR_DE_HORA};
     top: 32px;
     z-index: 10;
+
+    @media screen and (max-width: 535px) {
+      top: 5px;
+    }
   }
 
   .text-box {
@@ -113,6 +117,11 @@ export const StyledContainer = styled.div<IStyledContainerProps>`
   }
 
   @media screen and (max-width: 565px) {
-    padding: 10px 5%;
+    padding: 25px 5%;
+
+    .left-container-arrow,
+    .right-container-arrow {
+      display: none;
+    }
   }
 `;
