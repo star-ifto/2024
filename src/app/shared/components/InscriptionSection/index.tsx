@@ -1,7 +1,7 @@
 import QRCode from "react-qr-code";
 import { GiantParagraph, Title } from "..";
 import { StyledContainer, StyledQrCodeContainer } from "./styles";
-import { ArrowSquareOut } from "phosphor-react";
+import { WhatsappLogo } from "phosphor-react";
 
 interface IInscriptionSectionProps
   extends React.DetailedHTMLProps<
@@ -9,7 +9,7 @@ interface IInscriptionSectionProps
     HTMLElement
   > {}
 
-const INSCRIPTION_LINK = "http://192.168.7.5:5173/";
+const INSCRIPTION_LINK = "https://chat.whatsapp.com/FER36xApMff1ug8FEFbqdp";
 
 export function InscriptionSection({ ...rest }: IInscriptionSectionProps) {
   function handleAccessLink() {
@@ -21,12 +21,11 @@ export function InscriptionSection({ ...rest }: IInscriptionSectionProps) {
       <Title content="Onde fazer a Inscrição?" />
 
       <GiantParagraph>
-        Lorem Ipsum is simply dummy text of the printing and typesetting
-        industry. Lorem Ipsum has been the industry's standard dummy text ever
-        since the 1500s, when an unknown printer took a galley of type and
-        scrambled it to make a type specimen book. It has survived not only five
-        centuries, but also the leap into electronic typesetting, remaining
-        essentially unchanged.
+        A inscrição do evento será realizada no site oficial de eventos do IFTO.
+        O link para acesso será disponibilizado em breve nessa seção. Para se
+        manter informado sobre a GETEC e tirar possíveis dúvidas que possam
+        surgir, você pode acessar o grupo de tira dúvidas escaneando o QR Code
+        ou clicando na opção abaixo.
       </GiantParagraph>
 
       <StyledQrCodeContainer>
@@ -40,12 +39,14 @@ export function InscriptionSection({ ...rest }: IInscriptionSectionProps) {
             }}
             value={INSCRIPTION_LINK}
             viewBox={`0 0 256 256`}
-            level="Q"
+            level="L"
           />
         </div>
 
         <button onClick={handleAccessLink}>
-          ACESSAR LINK <ArrowSquareOut size={22} weight="bold" />
+          {/* ACESSAR LINK <ArrowSquareOut size={22} weight="bold" /> */}
+          ENTRAR NO GRUPO{" "}
+          <WhatsappLogo size={22} weight="duotone" color="#4BCA59" />
         </button>
       </StyledQrCodeContainer>
     </StyledContainer>
