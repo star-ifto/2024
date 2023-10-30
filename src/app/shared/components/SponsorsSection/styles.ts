@@ -20,7 +20,8 @@ export const StyledSponsorsContainer = styled.div`
   margin-top: 6%;
   width: 100%;
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(20em, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(27.5em, 1fr));
+  row-gap: 6em;
   justify-content: center;
   align-items: center;
 

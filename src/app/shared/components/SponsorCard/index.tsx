@@ -1,17 +1,18 @@
 import { StyledContainer, StyledImageContainer } from "./styles";
+import InstagramLogoImage from "../../assets/instagram-logo.png";
 
 interface ISponsorCardProps {
   image: string;
   title: string;
   description: string;
-  link: string;
+  instagram: string;
 }
 
 export function SponsorCard({
   image,
   title,
   description,
-  link,
+  instagram,
 }: ISponsorCardProps) {
   return (
     <StyledContainer>
@@ -23,7 +24,9 @@ export function SponsorCard({
 
       <p>{description}</p>
 
-      <a href={`https://${link}`} target="_blank">{link}</a>
+      <a href={`https://instagram.com/${instagram}`} target="_blank">
+        <img src={InstagramLogoImage} alt="instagram" />
+      </a>
     </StyledContainer>
   );
 }

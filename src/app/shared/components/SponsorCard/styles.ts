@@ -8,7 +8,7 @@ export const StyledContainer = styled.div`
   flex-direction: column;
   gap: 1.75em;
   margin: 0 auto;
-  width: 20em;
+  width: 27.5em;
   height: 27.5em;
   background-color: white;
   padding: 1em;
@@ -34,8 +34,11 @@ export const StyledContainer = styled.div`
 
   a {
     text-decoration: none;
-    font-size: 0.9em;
-    color: #17658d;
+    user-select: none;
+
+    img {
+      height: 30px;
+    }
   }
 `;
 
@@ -50,6 +53,6 @@ export const StyledImageContainer = styled.div`
   border-radius: 50%;
 
   img {
-    height: ${IMAGE_SIZE};
+    width: ${IMAGE_SIZE};
   }
 `;
