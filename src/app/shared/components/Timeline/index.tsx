@@ -43,8 +43,22 @@ export function Timeline() {
 
         <TimelineContainer hour="21:00">
           <TimelineSimpleContent
-            title="Mesa Redonda / Workshop"
+            title="Mesa Redonda"
             content={`Junte-se a Paulo André, Analista de RH, e Marina Teixeira, Advogada, para uma discussão profunda sobre "Desenvolvimento de Talentos: como identificar, desenvolver e reter talentos dentro da organização".`}
+          />
+        </TimelineContainer>
+
+        <TimelineContainer hour="21:00" right>
+          <TimelineSimpleContent
+            title="Workshop: Experiências de Desenvolvedor"
+            content="Aprenda com quem já esteve no seu lugar! Junte-se a Luis Henrique, um ex-aluno do curso de ADS, e explore as experiências e insights valiosos que ele acumulou ao longo de sua jornada de desenvolvimento. Uma oportunidade única para obter conhecimento prático."
+          />
+        </TimelineContainer>
+
+        <TimelineContainer hour="21:00">
+          <TimelineSimpleContent
+            title="Workshop: Técnicas de Gerenciamento de Projetos"
+            content="Aprimore suas habilidades de gerenciamento de projetos com Juan Felipe, um desenvolvedor experiente e acadêmico de ADS. Aprenda técnicas valiosas para garantir o sucesso de seus projetos e otimizar a eficiência."
           />
         </TimelineContainer>
 
@@ -62,41 +76,56 @@ export function Timeline() {
 
         <TimelineContainer hour="19:00" color="secondary">
           <TimelineContentWithImage
-            title="Políticas Públicas em Saúde – Sistema único de Saúde/SUS"
-            image={ExemploPalestranteImage}
-            name="Joaquim Nascimento Fonseca da Cruz"
-            description="Graduada em Direito especialista em Direito Civil pela PUC Minas, cursou Docência no Ensino Superior no Instituto Federal do Sul de Minas e é mestranda em Gestão Pública pela Universidade Federal de Alfenas. Consultora e docente na área da Infância e Juventude e políticas públicas em Assistência Social."
+            title="Parcerias Industriais e Ecossistemas de Inovação"
+            image=""
+            name="Gean Sharly de Sousa Santos"
+            description="Profissional com formação em Bacharel em Sistemas de Informação pela ITPAC. Ele é o CEO da Nortesys desde novembro de 1997, desempenhando um papel de liderança na empresa ao longo de várias décadas."
           />
         </TimelineContainer>
 
         <TimelineContainer hour="20:00" right color="secondary">
           <TimelineContentWithImage
-            title="Políticas Públicas em Saúde – Sistema único de Saúde/SUS"
-            image={ExemploPalestranteImage}
-            name="Joaquim Nascimento Fonseca da Cruz"
-            description="Graduada em Direito especialista em Direito Civil pela PUC Minas, cursou Docência no Ensino Superior no Instituto Federal do Sul de Minas e é mestranda em Gestão Pública pela Universidade Federal de Alfenas. Consultora e docente na área da Infância e Juventude e políticas públicas em Assistência Social."
+            title="Gestão e Tecnologia na Saúde"
+            image=""
+            name="Izabela"
+            description="Gerente na clínica Doutor Hérnia, parte da FRANQUIA DOUTOR HERNIA™, reconhecida por sua liderança no tratamento de patologias da coluna vertebral no Brasil e na América Latina sem recorrer à cirurgia. A clínica é liderada por profissionais com mais de 15 anos de experiência, Dr. André Pêgas de Oliveira e Dr. Laudelino Risso, que introduziram técnicas exclusivas do cenário internacional, incluindo Harvard Medical School e o Hospital Beth Israel."
             right
+            womanSpeaker
           />
         </TimelineContainer>
 
         <TimelineContainer hour="20:50" color="secondary">
           <TimelineSimpleContent
             title="Intervalo"
-            content="There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour."
+            content="Teremos um breve intervalo de 10 minutos. É o momento perfeito para relaxar, fazer novas conexões e se preparar para a próxima parte empolgante do evento."
           />
         </TimelineContainer>
 
         <TimelineContainer hour="21:00" right color="secondary">
           <TimelineSimpleContent
-            title="Mesa Redonda / Workshop / Oficina"
-            content="There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour."
+            title="Workshop: Programação Fullstack"
+            content="Junte-se a Hugo Christian, Desenvolvedor na Nortesys, para uma imersão prática na Programação Fullstack. Descubra as habilidades essenciais e ferramentas para se destacar no mundo da tecnologia. Prepare-se para aprender e se inspirar!"
+          />
+        </TimelineContainer>
+
+        <TimelineContainer hour="21:00" color="secondary">
+          <TimelineSimpleContent
+            title="Workshop: Técnicas de Oratória"
+            content="Aprimore suas habilidades de comunicação! Este workshop irá explorar técnicas essenciais de oratória para ajudá-lo a se expressar com confiança e impacto. Este é o momento de aprimorar suas habilidades de fala."
+          />
+        </TimelineContainer>
+
+        <TimelineContainer hour="21:00" right color="secondary">
+          <TimelineSimpleContent
+            title="Oficina: Primeiros Socorros"
+            content="Prepare-se para aprender habilidades que podem salvar vidas! Junte-se a Katia Vieira, Bombeira Civil, e adquira conhecimentos práticos sobre primeiros socorros. Esta oficina é uma oportunidade valiosa para saber como agir em situações de emergência."
           />
         </TimelineContainer>
 
         <TimelineContainer hour="22:00" color="secondary">
           <TimelineSimpleContent
             title="Encerramento"
-            content="There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour."
+            content="Considerações finais referentes ao segundo dia do evento repleto de aprendizado e inspiração."
           />
         </TimelineContainer>
       </Fragment>

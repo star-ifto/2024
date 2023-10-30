@@ -5,6 +5,7 @@ export const StyledContainer = styled.div`
   flex-direction: column;
   align-items: center;
   gap: 1em;
+  text-align: center;
 
   h2 {
     font-size: 1.5em;
