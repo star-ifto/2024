@@ -18,8 +18,8 @@ export function FooterSection() {
           <img src={GETECLogoImage} alt="GETEC" />
 
           <p>
-            Lorem ipsum dolor sit amet, consect etur adipiscing elit.
-            Ullamcorper purus eleifend purus faucibus faucibus.
+            Explorando Inovações em TI e Gestão para Acadêmicos e Comunidade.
+            Este ano, foco em "Inovações Tecnológicas na Indústria".
           </p>
         </StyledFirstContent>
 
@@ -29,15 +29,35 @@ export function FooterSection() {
           </StyledIFTOLogoContainer>
 
           <StyledTextsContainer>
-            <h3>Resources</h3>
+            <h3>
+              <a href="https://www.instagram.com/getec.ifto/" target="_blank">
+                GETEC
+              </a>
+            </h3>
 
-            <p>Services</p>
+            <p>
+              <a
+                href="https://www.instagram.com/ifto.araguaina/"
+                target="_blank"
+              >
+                IFTO Araguaína
+              </a>
+            </p>
 
-            <p>Pricing</p>
+            <p>
+              <a href="https://www.instagram.com/ifto.oficial/" target="_blank">
+                IFTO Oficial
+              </a>
+            </p>
 
-            <p>Testimonials</p>
-
-            <p>Blog</p>
+            <p>
+              <a
+                href="https://chat.whatsapp.com/FER36xApMff1ug8FEFbqdp"
+                target="_blank"
+              >
+                Tira Dúvidas
+              </a>
+            </p>
           </StyledTextsContainer>
         </StyledSecondContent>
       </StyledContent>
