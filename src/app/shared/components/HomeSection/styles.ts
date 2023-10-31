@@ -45,6 +45,11 @@ export const StyledMainContainer = styled.div`
     }
   }
 
+  img {
+    border: 0.147px solid rgba(81, 86, 94, 0.10);
+    border-radius: 10.7px;
+  }
+
   @media screen and (max-width: 1560px) {
     .title {
       width: 39vw;
