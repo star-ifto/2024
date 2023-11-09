@@ -5,4 +5,8 @@ const Navigation = {
   Sponsors: "patrocinadores",
 };
 
-export const Configs = { Navigation };
+const Links = {
+  WhatsappGroup: "https://chat.whatsapp.com/FER36xApMff1ug8FEFbqdp"
+}
+
+export const Configs = { Navigation, Links };

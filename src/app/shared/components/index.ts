@@ -13,3 +13,4 @@ export * from "./TimelineDate";
 export * from "./TimelineSection";
 export * from "./TimelineSimpleContent";
 export * from "./Title";
+export * from "./WhatsappButton";

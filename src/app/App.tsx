@@ -5,6 +5,7 @@ import {
   TimelineSection,
   SponsorsSection,
   FooterSection,
+  WhatsappButton,
 } from "./shared/components";
 import { Configs } from "./shared/configs";
 import { GlobalStyle } from "./shared/global/styles";
@@ -14,6 +15,8 @@ export function App() {
     <>
       <GlobalStyle />
       <main>
+        <WhatsappButton />
+
         <HomeSection />
 
         <AboutSection id={Configs.Navigation.About} />

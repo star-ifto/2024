@@ -1,5 +1,6 @@
 import GETECLogoImage from "../../assets/getec-logo.svg";
 import IFTOLogoImage from "../../assets/ifto-logo.png";
+import { Configs } from "../../configs";
 import {
   StyledContainer,
   StyledContent,
@@ -52,7 +53,7 @@ export function FooterSection() {
 
             <p>
               <a
-                href="https://chat.whatsapp.com/FER36xApMff1ug8FEFbqdp"
+                href={Configs.Links.WhatsappGroup}
                 target="_blank"
               >
                 Tira Dúvidas
