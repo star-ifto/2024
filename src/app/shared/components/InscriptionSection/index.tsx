@@ -1,7 +1,7 @@
 import QRCode from "react-qr-code";
 import { GiantParagraph, Title } from "..";
 import { StyledContainer, StyledQrCodeContainer } from "./styles";
-import { WhatsappLogo } from "phosphor-react";
+import { ArrowSquareOut } from "phosphor-react";
 
 interface IInscriptionSectionProps
   extends React.DetailedHTMLProps<
@@ -9,7 +9,7 @@ interface IInscriptionSectionProps
     HTMLElement
   > {}
 
-const INSCRIPTION_LINK = "https://chat.whatsapp.com/FER36xApMff1ug8FEFbqdp";
+const INSCRIPTION_LINK = "https://si.ifto.edu.br/evento/inscricao/1673/";
 
 export function InscriptionSection({ ...rest }: IInscriptionSectionProps) {
   function handleAccessLink() {
@@ -21,11 +21,8 @@ export function InscriptionSection({ ...rest }: IInscriptionSectionProps) {
       <Title content="Onde fazer a Inscrição?" />
 
       <GiantParagraph>
-        A inscrição do evento será realizada no site oficial de eventos do IFTO.
-        O link para acesso será disponibilizado em breve nessa seção. Para se
-        manter informado sobre a GETEC e tirar possíveis dúvidas que possam
-        surgir, você pode acessar o grupo de tira dúvidas escaneando o QR Code
-        ou clicando na opção abaixo.
+        A inscrição do evento será realizada no site oficial de eventos do IFTO até o dia <strong>20/11</strong>.
+        Para acessar o link da inscrição, basta escanear o QR Code abaixo ou clicar no botão "ACESSAR LINK". É muito importante que seja realizada a inscrição para os eventos de seu desejo, pois apenas inscritos terão seus certificados gerados.
       </GiantParagraph>
 
       <StyledQrCodeContainer>
@@ -44,9 +41,9 @@ export function InscriptionSection({ ...rest }: IInscriptionSectionProps) {
         </div>
 
         <button onClick={handleAccessLink}>
-          {/* ACESSAR LINK <ArrowSquareOut size={22} weight="bold" /> */}
-          ENTRAR NO GRUPO{" "}
-          <WhatsappLogo size={22} weight="duotone" color="#4BCA59" />
+          ACESSAR LINK <ArrowSquareOut size={22} weight="bold" />
+          {/* ENTRAR NO GRUPO{" "}
+          <WhatsappLogo size={22} weight="duotone" color="#4BCA59" /> */}
         </button>
       </StyledQrCodeContainer>
     </StyledContainer>
