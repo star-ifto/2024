@@ -7,20 +7,17 @@ import RectangleGroupImage from "../../assets/rectangle-group.svg";
 export function HomeSection() {
   return (
     <ContentContainer className="home" type="primary">
-      <StyledRectangleGroup
-        src={RectangleGroupImage}
-        alt="Grupo de Retângulos"
-      />
-
       <Header />
 
       <StyledMainContainer>
         <div>
-          <Title content={`Semana De Gestão \ne Tecnologia`} color="white" />
+          <Title content={`Semana de Tecnologia de Araguaína`} color="white" />
 
           <p>
-            Assista a palestras, workshops e mesas redondas ministrados por especialistas, incluindo líderes de empresas da região.
-            A oportunidade de ampliar conhecimentos e fazer networking está à sua espera!
+            Bem-vindos à Semana de Tecnologia de Araguaína (STAR), um evento
+            organizado pelo Instituto Federal do Tocantins (IFTO), em parceria
+            com a Prefeitura de Araguaína, a Universidade Federal do Norte do
+            Tocantins (UFNT) e o SEBRAE.
           </p>
 
           <a href={`#${Configs.Navigation.Inscription}`}>Inscrição</a>
@@ -28,6 +25,11 @@ export function HomeSection() {
 
         <img src={PeoplesGroupImage} alt="Grupo de Pessoas" />
       </StyledMainContainer>
+
+      <StyledRectangleGroup
+        src={RectangleGroupImage}
+        alt="Grupo de Retângulos"
+      />
     </ContentContainer>
   );
 }

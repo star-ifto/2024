@@ -2,7 +2,11 @@ import { Title, AboutCard, GiantParagraph } from "..";
 import CalendarImage from "../../assets/calendar.png";
 import MoneyImage from "../../assets/money.png";
 import CertificateImage from "../../assets/certificate.png";
-import { StyledCardsContainer, StyledContainer } from "./styles";
+import {
+  StyledCardsContainer,
+  StyledContainer,
+  StyledTextContainer,
+} from "./styles";
 
 interface IAboutSectionProps
   extends React.DetailedHTMLProps<
@@ -15,12 +19,24 @@ export function AboutSection({ ...rest }: IAboutSectionProps) {
     <StyledContainer type="secondary" {...rest}>
       <Title content="Sobre o Evento" />
 
-      <GiantParagraph>
-        A GETEC visa enriquecer acadêmicos e a comunidade de Araguaína com palestras, workshops e mesas redondas dedicados à exploração de inovações nas áreas de TI e Gestão.
-        Este ano, o tema central é "Inovações Tecnológicas na Indústria: Desafios e Oportunidades".
-        Como um evento anual, a GETEC promove a integração entre dois cursos de graduação do IFTO: Tecnólogo em Análise e Desenvolvimento de Sistemas (ADS) e Tecnólogo em Gestão da Produção Industrial (GPI), fomentando a colaboração entre ambas as disciplinas.
-        Neste ano, a Semana será gerida e organizada pelos acadêmicos dos dois cursos em parceria com a comissão de docentes do Instituto que estão envolvidos com a idealização do evento.
-      </GiantParagraph>
+      <StyledTextContainer>
+        <GiantParagraph className="paragraph">
+          Durante a STAR, os participantes poderão conhecer as últimas
+          tendências e avanços em tecnologia por meio de palestras, workshops e
+          atividades interativas. É a oportunidade perfeita para aprender, fazer
+          contatos e ampliar suas perspectivas profissionais e acadêmicas. Não
+          perca a chance de participar e ver como a tecnologia pode moldar o
+          futuro.
+        </GiantParagraph>
+
+        <GiantParagraph className="paragraph">
+          Neste ano, o evento destacará três temas principais: água, cidades
+          inteligentes e esportes. As atividades irão desde o desenvolvimento de
+          jogos digitais e a gestão de recursos hídricos até soluções
+          tecnológicas para cidades mais conectadas e eficientes. Descubra como
+          essas áreas podem transformar a nossa realidade!
+        </GiantParagraph>
+      </StyledTextContainer>
 
       <StyledCardsContainer>
         <AboutCard
@@ -28,7 +44,7 @@ export function AboutSection({ ...rest }: IAboutSectionProps) {
           title="3 dias de Evento"
           description={
             <>
-              <span>Dia 22 a dia 24 de Novembro</span>
+              <span>Dia 02 a dia 04 de Outubro</span>
               <br />
               <span>Faça sua reserva</span>
             </>

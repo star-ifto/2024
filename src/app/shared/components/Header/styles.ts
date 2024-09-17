@@ -5,10 +5,11 @@ export const StyledContainer = styled.header`
   align-items: center;
   justify-content: space-between;
   padding: 2em 8em;
+  padding-bottom: 0em;
   z-index: 1;
 
   img {
-    width: 9em;
+    width: 12em;
   }
 
   .nav-desktop {

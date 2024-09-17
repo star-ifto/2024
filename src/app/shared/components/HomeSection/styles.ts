@@ -6,11 +6,12 @@ export const StyledMainContainer = styled.div`
   justify-content: space-between;
   gap: 5.5em;
   padding: 8em;
+  z-index: 1;
 
   flex: 1;
 
   .title {
-    width: 15ch;
+    width: 21ch;
   }
 
   p {

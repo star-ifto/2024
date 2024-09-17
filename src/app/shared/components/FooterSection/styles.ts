@@ -35,13 +35,14 @@ export const StyledFirstContent = styled.div`
   gap: 1.875em;
 
   img {
-    width: 25em;
+    width: 22em;
   }
 
   p {
     max-width: 21.25em;
     line-height: 160%;
     font-size: 1em !important;
+    text-align: center;
   }
 
   @media screen and (max-width: 1110px) {

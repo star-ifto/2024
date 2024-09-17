@@ -1,10 +1,14 @@
 import { ReactNode } from "react";
 import { StyledContainer } from "./styles";
 
-interface IGiantParagraphProps {
+interface IGiantParagraphProps
+  extends React.DetailedHTMLProps<
+    React.HTMLAttributes<HTMLParagraphElement>,
+    HTMLParagraphElement
+  > {
   children: ReactNode;
 }
 
-export function GiantParagraph({ children }: IGiantParagraphProps) {
-  return <StyledContainer>{children}</StyledContainer>;
+export function GiantParagraph({ children, ...rest }: IGiantParagraphProps) {
+  return <StyledContainer {...rest}>{children}</StyledContainer>;
 }

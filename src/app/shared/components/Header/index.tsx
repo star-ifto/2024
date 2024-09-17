@@ -1,5 +1,5 @@
 import { List, X } from "phosphor-react";
-import GETECLogoImage from "../../assets/getec-logo.svg";
+import EventLogoImage from "../../assets/event-logo-white.svg";
 import { Configs } from "../../configs";
 import { StyledContainer } from "./styles";
 import { useState } from "react";
@@ -23,7 +23,7 @@ export function Header() {
 
   return (
     <StyledContainer>
-      <img src={GETECLogoImage} alt="GETEC" />
+      <img src={EventLogoImage} alt="STAR" />
 
       <nav className="nav-desktop">
         <HeaderLinks />

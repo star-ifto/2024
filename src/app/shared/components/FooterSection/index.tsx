@@ -1,4 +1,4 @@
-import GETECLogoImage from "../../assets/getec-logo.svg";
+import EventLogoImage from "../../assets/event-logo-white.svg";
 import IFTOLogoImage from "../../assets/ifto-logo.png";
 import InstagramLogoImage from "../../assets/instagram-logo.png";
 import {
@@ -16,11 +16,11 @@ export function FooterSection() {
     <StyledContainer>
       <StyledContent>
         <StyledFirstContent>
-          <img src={GETECLogoImage} alt="GETEC" />
+          <img src={EventLogoImage} alt="STAR" />
 
           <p>
-            Explorando Inovações em TI e Gestão para Acadêmicos e Comunidade.
-            Este ano, foco em "Inovações Tecnológicas na Indústria".
+            Não perca a oportunidade de participar da STAR e descobrir como a
+            tecnologia pode transformar o nosso futuro!
           </p>
         </StyledFirstContent>
 
@@ -32,7 +32,11 @@ export function FooterSection() {
           <StyledTextsContainer>
             <p>
               <a href="https://www.instagram.com/getec.ifto/" target="_blank">
-                <img src={InstagramLogoImage} alt="instagram" /> <p>@getec.ifto</p>
+                <img src={InstagramLogoImage} alt="instagram" />{" "}
+                <p>@getec.ifto</p>{" "}
+                {
+                  // TODO: Change instagram link
+                }
               </a>
             </p>
 
@@ -41,20 +45,22 @@ export function FooterSection() {
                 href="https://www.instagram.com/ifto.araguaina/"
                 target="_blank"
               >
-                <img src={InstagramLogoImage} alt="instagram" /> <p>@ifto.araguaina</p>
+                <img src={InstagramLogoImage} alt="instagram" />{" "}
+                <p>@ifto.araguaina</p>
               </a>
             </p>
 
             <p>
               <a href="https://www.instagram.com/ifto.oficial/" target="_blank">
-                <img src={InstagramLogoImage} alt="instagram" /> <p>@ifto.oficial</p>
+                <img src={InstagramLogoImage} alt="instagram" />{" "}
+                <p>@ifto.oficial</p>
               </a>
             </p>
           </StyledTextsContainer>
         </StyledSecondContent>
       </StyledContent>
 
-      <StyledCopyright>Copyright &copy; 2023 GETEC.</StyledCopyright>
+      <StyledCopyright>Copyright &copy; 2024 STAR.</StyledCopyright>
     </StyledContainer>
   );
 }
