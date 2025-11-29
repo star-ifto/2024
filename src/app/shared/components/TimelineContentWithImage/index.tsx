@@ -12,6 +12,7 @@ interface ITimelineContentWithImageProps {
   title: string;
   image: string;
   name: string;
+  about_name: string;
   description: string;
   right?: boolean;
   womanSpeaker?: boolean;
@@ -21,6 +22,7 @@ export function TimelineContentWithImage({
   title,
   image,
   name,
+  about_name,
   description,
   right = false,
   womanSpeaker = false,
@@ -48,6 +50,8 @@ export function TimelineContentWithImage({
 
           <strong>{name}</strong>
         </StyledSpeakerInfo>
+
+        <span style={{ color: "blue" }}>{about_name}</span>
 
         <p>{description}</p>
       </StyledContentContainer>
