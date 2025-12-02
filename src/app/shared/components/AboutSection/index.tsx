@@ -30,11 +30,11 @@ export function AboutSection({ ...rest }: IAboutSectionProps) {
         </GiantParagraph>
 
         <GiantParagraph className="paragraph">
-          Neste ano, o evento destacará três temas principais: água, cidades
-          inteligentes e esportes. As atividades irão desde o desenvolvimento de
-          jogos digitais e a gestão de recursos hídricos até soluções
-          tecnológicas para cidades mais conectadas e eficientes. Descubra como
-          essas áreas podem transformar a nossa realidade!
+          Neste ano teremos diversas atividades, como palestras, minicursos, 
+           torneios de programação, e muito mais. Tudo isso organizado por
+          alunos do IFTO campus Araguaína, com o apoio de professores e da
+          instituição. Venha fazer parte dessa experiência única e contribuir
+          para o crescimento da comunidade tecnológica local!
         </GiantParagraph>
       </StyledTextContainer>
 
