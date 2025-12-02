@@ -5,7 +5,7 @@ import {
   TimelineSection,
   SponsorsSection,
   FooterSection,
-  WhatsappButton,
+  // WhatsappButton,
 } from "./shared/components";
 import { Configs } from "./shared/configs";
 import { GlobalStyle } from "./shared/global/styles";
@@ -15,7 +15,7 @@ export function App() {
     <>
       <GlobalStyle />
       <main>
-        <WhatsappButton />
+        {/* <WhatsappButton /> */}
 
         <HomeSection />
 
