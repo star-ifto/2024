@@ -30,12 +30,13 @@ export function Timeline() {
 
         <TimelineContainer hour="19:50 - 20:30">
           <TimelineContentWithImage
-            title="Palestra de Abertura."
-            image={GeanSharly}
-            name="Gean Sharly"
-            about_name="CEO da Nortesys"
-            description="Mercado de trabalho na área de tecnologia: tendências e oportunidades para os próximos anos."
+            title="💻 Palestra de Abertura: Ética e Responsabilidade no uso da IA"
+            image=""
+            name="  Hugo Cristian"
+            about_name="Nortesys"
+            description="Resumo: A inteligência artificial (IA) está transformando rapidamente diversos setores, trazendo benefícios significativos, mas também levantando questões éticas importantes. Nesta palestra, exploraremos os princípios fundamentais da ética na IA, discutindo temas como viés algorítmico, privacidade dos dados e responsabilidade social. Abordaremos como desenvolvedores, empresas e usuários podem colaborar para garantir que a IA seja utilizada de maneira justa, transparente e benéfica para toda a sociedade."
             address="Área de Convivência (Bloco 2)"
+            womanSpeaker={false}
             />
         </TimelineContainer>
 
@@ -81,7 +82,7 @@ export function Timeline() {
             description="Aprenda os conceitos básicos do Arduíno, uma plataforma de prototipagem eletrônica de código aberto. Neste minicurso, você será introduzido ao ambiente de desenvolvimento, componentes eletrônicos e programação básica para criar seus próprios projetos interativos."
             address="Laboratório Maker"
             vacancy="Vagas disponíveis: 10"
-            womanSpeaker
+            womanSpeaker={false}
           />
 
             <hr style={{ 
@@ -101,7 +102,7 @@ export function Timeline() {
              Descubra como interagir com a API do Discord e adicionar funcionalidades divertidas e úteis ao seu servidor."
             vacancy="Vagas disponíveis: 25"
             address="Laboratório 1"
-            womanSpeaker
+            womanSpeaker={false}
             twoSpeakers={true}
           />
 
@@ -142,7 +143,7 @@ export function Timeline() {
             description="Mergulhe no mundo da Prática de Redes! Neste minicurso, você aprenderá os princípios fundamentais de redes de computadores, incluindo topologias, protocolos e segurança. Prepare-se para criar experiências digitais que realmente atendam às necessidades dos usuários."
             address="Laboratório 4"
             vacancy="Vagas disponíveis: 15"
-            womanSpeaker
+            womanSpeaker={false}
             twoSpeakers={false}
           />
 
@@ -166,7 +167,7 @@ export function Timeline() {
             description="Aprenda os conceitos básicos do Arduíno, uma plataforma de prototipagem eletrônica de código aberto. Neste minicurso, você será introduzido ao ambiente de desenvolvimento, componentes eletrônicos e programação básica para criar seus próprios projetos interativos."
             address="Laboratório Maker"
             vacancy="Vagas disponíveis: 10"
-            womanSpeaker
+            womanSpeaker={false}
           />
 
             <hr style={{ 
@@ -186,7 +187,7 @@ export function Timeline() {
              Descubra como interagir com a API do Discord e adicionar funcionalidades divertidas e úteis ao seu servidor."
             vacancy="Vagas disponíveis: 25"
             address="Laboratório 1"
-            womanSpeaker
+            womanSpeaker={false}
             twoSpeakers={true}
           />
 
@@ -227,7 +228,7 @@ export function Timeline() {
             description="Mergulhe no mundo da Prática de Redes! Neste minicurso, você aprenderá os princípios fundamentais de redes de computadores, incluindo topologias, protocolos e segurança. Prepare-se para criar experiências digitais que realmente atendam às necessidades dos usuários."
             address="Laboratório 4"
             vacancy="Vagas disponíveis: 15"
-            womanSpeaker
+            womanSpeaker={false}
             twoSpeakers={false}
           />
         </TimelineContainer>
@@ -244,8 +245,9 @@ export function Timeline() {
               address="Laboratório 2"
             />
         </TimelineContainer>
+        
 
-        <TimelineContainer hour="20:00">
+        <TimelineContainer hour="17:00-19:00">
           <TimelineSimpleContent
             title="🧑‍🎓 Mesa redonda com egressos dos cursos Técnico em Informática Integrado ao Ensino Médio e Superior de Tecnologia em Análise e Desenvolvimento de Sistemas"
             content="Momento para interação entre os discentes dos cursos, com perguntas e respostas."
