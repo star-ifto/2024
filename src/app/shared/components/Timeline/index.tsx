@@ -109,7 +109,7 @@ export function Timeline() {
             course={true}
             title="🤖 Minicurso: Desenvolvimento de um Bot no Discord"
             image=""
-            name="Jhon Henrique e Flávio Manoel"
+            name="Jhon Henrique e Flávio Manuel"
             about_name="Devs e Formandos em ADS - IFTO Araguaína"
             description="Mergulhe no mundo do desenvolvimento de bots para o Discord! Neste minicurso, você aprenderá a criar um bot funcional, integrando com 
             inteligência artificial e api do Discord,desde a configuração inicial até a implementação de comandos personalizados.
@@ -194,7 +194,7 @@ export function Timeline() {
             course={true}
             title="🤖 Minicurso: Desenvolvimento de um Bot no Discord"
             image=""
-            name="Jhon Henrique e Flávio Manoel"
+            name="Jhon Henrique e Flávio Manuel"
             about_name="Devs e Formandos em ADS - IFTO Araguaína"
             description="Mergulhe no mundo do desenvolvimento de bots para o Discord! Neste minicurso, você aprenderá a criar um bot funcional, integrando com 
             inteligência artificial e api do Discord,desde a configuração inicial até a implementação de comandos personalizados.
