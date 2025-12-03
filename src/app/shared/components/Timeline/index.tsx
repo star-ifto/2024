@@ -68,7 +68,7 @@ export function Timeline() {
         <TimelineContainer hour="21:50 - 22:30">
           <TimelineSimpleContent
             title="☕ Coffee Break."
-            content={`Visita aos estandes`}
+            content={``}
             address="Área de Convivência (Bloco 2)"
           />
         </TimelineContainer>
